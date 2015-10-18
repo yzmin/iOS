@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Dog.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Dog *heipi = [Dog new];
+        heipi.tuiNum = 10;
+        NSLog(@"tuiNum = %d",heipi.tuiNum);
     }
     return 0;
 }

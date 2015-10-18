@@ -7,7 +7,8 @@
 //
 
 #import "Person.h"
-
+// 假设 FaShi coin = 1000,level = 1,blood = 100
 @interface FaShi : Person
+@property int blood;
 
 @end

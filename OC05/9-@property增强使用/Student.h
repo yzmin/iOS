@@ -9,5 +9,5 @@
 #import "Person.h"
 
 @interface Student : Person
-
+-(void)run;
 @end

@@ -9,5 +9,13 @@
 #import "FaShi.h"
 
 @implementation FaShi
-
+-(instancetype)init
+{
+    //[super init] 一定要先调用父类的init方法
+    if(self = [super init])
+    {
+         _blood = 100;
+    }
+    return self;
+}
 @end

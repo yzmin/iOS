@@ -9,5 +9,20 @@
 #import "Person.h"
 
 @implementation Person
-
+-(instancetype)init
+{
+    //初始化父类
+    if(self = [super init])
+    {
+        //初始化子类
+        _age = 18;
+    }
+    //返回
+    NSLog(@"Person self = %p",self);
+    NSLog(@"_age addr = %p",&_age);
+    
+    //[self release]; //self = nil;
+    //[self alloc];
+    return self;
+}
 @end

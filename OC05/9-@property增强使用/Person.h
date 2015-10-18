@@ -13,26 +13,25 @@ typedef enum
     kSexWoman,
     kSexYao
 }Sex;
+
 @interface Person : NSObject
 {
-    //姓名
-    NSString *_name;
-    //年龄
-    int _age;
-    //性别
-    Sex _sex;
-    //身高
-    float _height;
-    //体重
-    float _weight;
+    //能被子类继承
+    int age;
+    //实例变量，必须以下划线开头
+    //int _age;
 }
-//@property 帮我们自动声明实例变量
-@property NSString *name;  //这个实例变量为 name,而非使用_name这个实例变量，然而会生成一个name实例变量
+//声明set和get方法
+//setName
+//name
+
+@property NSString *name;
 @property int age;
+/*
+ -(void)setAge:(int)age;
+ -(int)age;
+ */
 @property Sex sex;
-//@property float height;
-//@property float weight;
-////注意：类型一致，可以写到一行上
 @property float height,weight;
 
 -(void)test;

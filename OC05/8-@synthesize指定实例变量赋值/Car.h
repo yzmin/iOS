@@ -9,5 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface Car : NSObject
+{
+    int _speed;//实例变量
+    int a;
+}
+@property int speed;//生成set和get方法的声明
+-(void)test;
 
 @end

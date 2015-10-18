@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Dog : NSObject
-
+-(void)eat:(NSString *)foodName;
+-(void)eat:(NSString *)foodName andDogName:(NSString *)dogName;
+-(void)run;
 @end

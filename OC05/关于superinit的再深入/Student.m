@@ -9,5 +9,18 @@
 #import "Student.h"
 
 @implementation Student
-
+-(instancetype)init
+{
+    if(self = [super init])
+    {
+        _sno = 100;
+    }
+    NSLog(@"self = %p",self);
+    NSLog(@"_sno addr = %p",&_sno);
+    return self;
+}
+-(void)run
+{
+    
+}
 @end

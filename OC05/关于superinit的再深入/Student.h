@@ -9,5 +9,6 @@
 #import "Person.h"
 
 @interface Student : Person
-
+@property int sno;
+-(void)run;
 @end

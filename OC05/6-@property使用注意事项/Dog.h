@@ -9,5 +9,13 @@
 #import <Foundation/Foundation.h>
 
 @interface Dog : NSObject
+{
+    int _tuiNum;
+}
+//关键字 类型    方法名
+//@property int _tuiNum;
+//-(void)set_tuiNum:(int)_tuiNum;
+//-(int)_tuiNum;
+@property int tuiNum;
 
 @end

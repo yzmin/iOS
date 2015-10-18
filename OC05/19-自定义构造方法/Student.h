@@ -9,5 +9,7 @@
 #import "Person.h"
 
 @interface Student : Person
-
+@property int sno;
+// 年龄 姓名 sno
+-(instancetype)initWith:(NSString *)name andAge:(int)age andSno:(int)sno;
 @end

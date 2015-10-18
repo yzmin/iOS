@@ -9,5 +9,13 @@
 #import "Dog.h"
 
 @implementation Dog
+-(void)setTuiNum:(int)tuiNum
+{
+    _tuiNum = tuiNum;
+}
 
+-(int)tuiNum
+{
+    return _tuiNum;
+}
 @end

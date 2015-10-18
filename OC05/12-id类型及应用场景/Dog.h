@@ -6,8 +6,8 @@
 //  Copyright (c) 2015年 yezhimin. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Animal.h"
 
-@interface Dog : NSObject
-
+@interface Dog : Animal
+-(void)lookHome;
 @end

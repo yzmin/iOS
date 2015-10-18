@@ -10,4 +10,9 @@
 
 @interface Person : NSObject
 
+//    int _coin;
+//    int _level;
+
+@property int coin;
+@property int level;
 @end

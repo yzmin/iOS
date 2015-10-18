@@ -20,10 +20,12 @@
 
 -(void)setAge:(int)age
 {
+    NSLog(@"调用了 setAge");
     _age = age;
 }
 -(int)age
 {
+    NSLog(@"调用了 age");
     return _age;
 }
 

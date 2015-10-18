@@ -9,5 +9,9 @@
 #import "Student.h"
 
 @implementation Student
-
+-(void)run
+{
+    //_age 不能访问
+    NSLog(@"age = %d",age);
+}
 @end

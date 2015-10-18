@@ -26,19 +26,27 @@ typedef enum
     //体重
     float _weight;
 }
--(void)setName:(NSString *)name;
--(NSString *)name;
+//声明name 的get和set方法
+//传统方式
+//-(void)setName:(NSString *)name;
+//-(NSString *)name;
+//@property
+@property NSString * name;
 
--(void)setAge:(int)age;
--(int)age;
+//-(void)setAge:(int)age;
+//-(int)age;
+@property int age;
 
--(void)setSex:(Sex)sex;
--(Sex)sex;
+//-(void)setSex:(Sex)sex;
+//-(Sex)sex;
+@property Sex sex;
 
--(void)setHeight:(float)height;
--(float)height;
+//-(void)setHeight:(float)height;
+//-(float)height;
+@property float height;
 
--(void)setWeight:(float)weight;
--(float)weight;
+//-(void)setWeight:(float)weight;
+//-(float)weight;
+@property float weight;
 
 @end

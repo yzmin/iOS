@@ -9,5 +9,18 @@
 #import "Soilder.h"
 
 @implementation Soilder
+-(instancetype)init
+{
+    if(self = [super init])
+    {
+        _gun = [Gun new];
+        //_gun.bulletCount = 3;
+    }
+    return self;
+}
 
+-(void)fireByGun
+{
+    [_gun shoot];//枪射击方法
+}
 @end

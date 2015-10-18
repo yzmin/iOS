@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Gun : NSObject
-
+@property int bulletCount;
+-(void)shoot;
 @end

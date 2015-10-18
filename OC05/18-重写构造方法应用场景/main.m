@@ -7,11 +7,32 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Soilder.h"
+
+void test()
+{
+    Gun *ak47 = [Gun new];
+    ak47.bulletCount = 3;
+    Soilder *s1 = [Soilder new];
+    s1.gun = ak47;
+    [s1 fireByGun];
+    
+    Gun *ak472 = [Gun new];
+    ak472.bulletCount = 3;
+    Soilder *s2 = [Soilder new];
+    s2.gun = ak472;
+    [s2 fireByGun];
+
+}
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Soilder *s = [Soilder new];
+        [s fireByGun];
+        
+        Soilder *s1 = [Soilder new];
+        [s1 fireByGun];
+        
     }
     return 0;
 }

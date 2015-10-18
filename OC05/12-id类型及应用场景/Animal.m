@@ -9,5 +9,8 @@
 #import "Animal.h"
 
 @implementation Animal
-
+-(void)run
+{
+    NSLog(@"动物会跑");
+}
 @end

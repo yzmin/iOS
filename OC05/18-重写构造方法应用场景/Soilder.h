@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Gun.h"
 
 @interface Soilder : NSObject
-
+@property Gun *gun; //关联关系
+-(void)fireByGun;
 @end

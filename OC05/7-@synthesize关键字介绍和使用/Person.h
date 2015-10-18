@@ -26,19 +26,15 @@ typedef enum
     //体重
     float _weight;
 }
--(void)setName:(NSString *)name;
--(NSString *)name;
+//@property 帮我们自动声明实例变量
+@property NSString *name;  //这个实例变量为 name,而非使用_name这个实例变量，然而会生成一个name实例变量
+@property int age;
+@property Sex sex;
+//@property float height;
+//@property float weight;
+////注意：类型一致，可以写到一行上
+@property float height,weight;
 
--(void)setAge:(int)age;
--(int)age;
-
--(void)setSex:(Sex)sex;
--(Sex)sex;
-
--(void)setHeight:(float)height;
--(float)height;
-
--(void)setWeight:(float)weight;
--(float)weight;
+-(void)test;
 
 @end

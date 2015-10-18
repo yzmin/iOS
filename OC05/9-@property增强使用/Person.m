@@ -9,65 +9,19 @@
 #import "Person.h"
 
 @implementation Person
-
-//@synthesize name;//帮我们生成 name方法的实现
-//@synthesize age;
-//@synthesize sex;
-//@synthesize weight;
-//@synthesize height;
-
-@synthesize name,age,sex,height,weight;
-
+/*
+ -(void)setAge:(int)age
+ {
+    //_age 是系统自动生成的
+    _age = age;
+ }
+ -(int)age
+ {
+    return _age;
+ }
+ */
 -(void)test
 {
-    NSLog(@"_name =%@, name = %@",name);
+    NSLog(@"age = %d, _age = %d",age,_age);
 }
-
-
-
-//-(void)setName:(NSString *)name
-//{
-//    _name = name;
-//}
-//-(NSString *)name
-//{
-//    return _name;
-//}
-//
-//-(void)setAge:(int)age
-//{
-//    _age = age;
-//}
-//-(int)age
-//{
-//    return _age;
-//}
-//
-//-(void)setSex:(Sex)sex
-//{
-//    _sex = sex;
-//}
-//-(Sex)sex
-//{
-//    return _sex;
-//}
-//
-//-(void)setHeight:(float)height
-//{
-//    _height = height;
-//}
-//-(float)height
-//{
-//    return _height;
-//}
-//
-//-(void)setWeight:(float)weight
-//{
-//    _weight = weight;
-//}
-//-(float)weight
-//{
-//    return _weight;
-//}
-
 @end

@@ -9,5 +9,8 @@
 #import "Cat.h"
 
 @implementation Cat
-
+-(void)run
+{
+    NSLog(@"猫会上树");
+}
 @end
