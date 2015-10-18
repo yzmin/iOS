@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D5266711BD32DCB00EAF632 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5266701BD32DCB00EAF632 /* main.m */; };
+		8D5266771BD32DDF00EAF632 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5266761BD32DDF00EAF632 /* Person.m */; };
 		8DBEFD5B1BD0A14F00515587 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBEFD5A1BD0A14F00515587 /* main.m */; };
 		8DBEFD681BD0A18300515587 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBEFD671BD0A18300515587 /* main.m */; };
 		8DBEFD6E1BD0A18F00515587 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBEFD6D1BD0A18F00515587 /* Car.m */; };
@@ -60,6 +62,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8D52666C1BD32DCB00EAF632 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8DBEFD551BD0A14F00515587 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -207,6 +218,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8D52666E1BD32DCB00EAF632 /* 20-类对象的存储细节 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "20-类对象的存储细节"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5266701BD32DCB00EAF632 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D5266751BD32DDF00EAF632 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8D5266761BD32DDF00EAF632 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		8DBEFD571BD0A14F00515587 /* OC04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OC04; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DBEFD5A1BD0A14F00515587 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8DBEFD651BD0A18300515587 /* 2-self和super关键字介绍 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2-self和super关键字介绍"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -310,6 +325,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8D52666B1BD32DCB00EAF632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DBEFD541BD0A14F00515587 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -425,6 +447,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D52666F1BD32DCB00EAF632 /* 20-类对象的存储细节 */ = {
+			isa = PBXGroup;
+			children = (
+				8D5266701BD32DCB00EAF632 /* main.m */,
+				8D5266751BD32DDF00EAF632 /* Person.h */,
+				8D5266761BD32DDF00EAF632 /* Person.m */,
+			);
+			path = "20-类对象的存储细节";
+			sourceTree = "<group>";
+		};
 		8DBEFD4E1BD0A14F00515587 = {
 			isa = PBXGroup;
 			children = (
@@ -444,6 +476,7 @@
 				8DBEFE3E1BD16BA200515587 /* 17-多态的实现 */,
 				8DBEFE551BD1DD2900515587 /* 18-类的本质 */,
 				8DBEFE631BD1DF5200515587 /* 19-类对象的使用 */,
+				8D52666F1BD32DCB00EAF632 /* 20-类对象的存储细节 */,
 				8DBEFD581BD0A14F00515587 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -467,6 +500,7 @@
 				8DBEFE3D1BD16BA200515587 /* 17-多态的实现 */,
 				8DBEFE541BD1DD2900515587 /* 18-类的本质 */,
 				8DBEFE621BD1DF5200515587 /* 19-类对象的使用 */,
+				8D52666E1BD32DCB00EAF632 /* 20-类对象的存储细节 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -670,6 +704,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8D52666D1BD32DCB00EAF632 /* 20-类对象的存储细节 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D5266741BD32DCB00EAF632 /* Build configuration list for PBXNativeTarget "20-类对象的存储细节" */;
+			buildPhases = (
+				8D52666A1BD32DCB00EAF632 /* Sources */,
+				8D52666B1BD32DCB00EAF632 /* Frameworks */,
+				8D52666C1BD32DCB00EAF632 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20-类对象的存储细节";
+			productName = "20-类对象的存储细节";
+			productReference = 8D52666E1BD32DCB00EAF632 /* 20-类对象的存储细节 */;
+			productType = "com.apple.product-type.tool";
+		};
 		8DBEFD561BD0A14F00515587 /* OC04 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DBEFD5E1BD0A14F00515587 /* Build configuration list for PBXNativeTarget "OC04" */;
@@ -951,6 +1002,9 @@
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = yezhimin;
 				TargetAttributes = {
+					8D52666D1BD32DCB00EAF632 = {
+						CreatedOnToolsVersion = 6.4;
+					};
 					8DBEFD561BD0A14F00515587 = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -1029,11 +1083,21 @@
 				8DBEFE3C1BD16BA200515587 /* 17-多态的实现 */,
 				8DBEFE531BD1DD2900515587 /* 18-类的本质 */,
 				8DBEFE611BD1DF5200515587 /* 19-类对象的使用 */,
+				8D52666D1BD32DCB00EAF632 /* 20-类对象的存储细节 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8D52666A1BD32DCB00EAF632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5266771BD32DDF00EAF632 /* Person.m in Sources */,
+				8D5266711BD32DCB00EAF632 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DBEFD531BD0A14F00515587 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1199,6 +1263,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8D5266721BD32DCB00EAF632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D5266731BD32DCB00EAF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8DBEFD5C1BD0A14F00515587 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1563,6 +1645,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8D5266741BD32DCB00EAF632 /* Build configuration list for PBXNativeTarget "20-类对象的存储细节" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5266721BD32DCB00EAF632 /* Debug */,
+				8D5266731BD32DCB00EAF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		8DBEFD521BD0A14F00515587 /* Build configuration list for PBXProject "OC04" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1579,6 +1669,7 @@
 				8DBEFD601BD0A14F00515587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBEFD691BD0A18300515587 /* Build configuration list for PBXNativeTarget "2-self和super关键字介绍" */ = {
 			isa = XCConfigurationList;
@@ -1587,6 +1678,7 @@
 				8DBEFD6B1BD0A18300515587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBEFD771BD0A53500515587 /* Build configuration list for PBXNativeTarget "3-self用在对象方法中" */ = {
 			isa = XCConfigurationList;
@@ -1595,6 +1687,7 @@
 				8DBEFD791BD0A53500515587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBEFD851BD0A83D00515587 /* Build configuration list for PBXNativeTarget "4-self用在类方法中" */ = {
 			isa = XCConfigurationList;
@@ -1603,6 +1696,7 @@
 				8DBEFD871BD0A83D00515587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBEFD931BD0ACDE00515587 /* Build configuration list for PBXNativeTarget "5-self修饰变量" */ = {
 			isa = XCConfigurationList;
@@ -1611,6 +1705,7 @@
 				8DBEFD951BD0ACDE00515587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBEFDA11BD1392900515587 /* Build configuration list for PBXNativeTarget "8-继承的代码实现" */ = {
 			isa = XCConfigurationList;
@@ -1619,6 +1714,7 @@
 				8DBEFDA31BD1392900515587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBEFDBB1BD141CB00515587 /* Build configuration list for PBXNativeTarget "9-基类和派生类之间的关系" */ = {
 			isa = XCConfigurationList;
@@ -1627,6 +1723,7 @@
 				8DBEFDBD1BD141CB00515587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBEFDD51BD145B500515587 /* Build configuration list for PBXNativeTarget "10-继承的注意事项" */ = {
 			isa = XCConfigurationList;
@@ -1635,6 +1732,7 @@
 				8DBEFDD71BD145B500515587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBEFDF51BD14BDB00515587 /* Build configuration list for PBXNativeTarget "11-实例变量修饰符介绍" */ = {
 			isa = XCConfigurationList;
@@ -1643,6 +1741,7 @@
 				8DBEFDF71BD14BDB00515587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBEFE031BD1536400515587 /* Build configuration list for PBXNativeTarget "12-实例变量修饰符对子类的影响" */ = {
 			isa = XCConfigurationList;
@@ -1651,6 +1750,7 @@
 				8DBEFE051BD1536400515587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBEFE141BD1595400515587 /* Build configuration list for PBXNativeTarget "13-OC中的私有变量" */ = {
 			isa = XCConfigurationList;
@@ -1659,6 +1759,7 @@
 				8DBEFE161BD1595400515587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBEFE251BD15E9000515587 /* Build configuration list for PBXNativeTarget "14-OC中的私有（相对私有）方法" */ = {
 			isa = XCConfigurationList;
@@ -1667,6 +1768,7 @@
 				8DBEFE271BD15E9000515587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBEFE331BD1616B00515587 /* Build configuration list for PBXNativeTarget "15-description方法及重写" */ = {
 			isa = XCConfigurationList;
@@ -1675,6 +1777,7 @@
 				8DBEFE351BD1616B00515587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBEFE411BD16BA200515587 /* Build configuration list for PBXNativeTarget "17-多态的实现" */ = {
 			isa = XCConfigurationList;
@@ -1683,6 +1786,7 @@
 				8DBEFE431BD16BA200515587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBEFE581BD1DD2900515587 /* Build configuration list for PBXNativeTarget "18-类的本质" */ = {
 			isa = XCConfigurationList;
@@ -1691,6 +1795,7 @@
 				8DBEFE5A1BD1DD2900515587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBEFE661BD1DF5200515587 /* Build configuration list for PBXNativeTarget "19-类对象的使用" */ = {
 			isa = XCConfigurationList;
@@ -1699,6 +1804,7 @@
 				8DBEFE681BD1DF5200515587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
