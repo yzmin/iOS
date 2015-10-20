@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D87CA0F1BD685B8004FF1EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D87CA0E1BD685B8004FF1EB /* main.m */; };
+		8D87CA151BD685DD004FF1EB /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D87CA141BD685DD004FF1EB /* Account.m */; };
+		8D87CA181BD6872B004FF1EB /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D87CA171BD6872B004FF1EB /* User.m */; };
+		8D87CA1B1BD688A5004FF1EB /* Microblog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D87CA1A1BD688A5004FF1EB /* Microblog.m */; };
 		8D95148C1BD5CE850062B3C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95148B1BD5CE850062B3C8 /* main.m */; };
 		8D9514991BD5CEBF0062B3C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9514981BD5CEBF0062B3C8 /* main.m */; };
 		8D95149F1BD5D04A0062B3C8 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95149E1BD5D04A0062B3C8 /* Person.m */; };
@@ -47,6 +51,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8D87CA0A1BD685B8004FF1EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8D9514861BD5CE850062B3C8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -185,6 +198,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8D87CA0C1BD685B8004FF1EB /* 作业-微博 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "作业-微博"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D87CA0E1BD685B8004FF1EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D87CA131BD685DD004FF1EB /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		8D87CA141BD685DD004FF1EB /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		8D87CA161BD6872B004FF1EB /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		8D87CA171BD6872B004FF1EB /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		8D87CA191BD688A5004FF1EB /* Microblog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Microblog.h; sourceTree = "<group>"; };
+		8D87CA1A1BD688A5004FF1EB /* Microblog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Microblog.m; sourceTree = "<group>"; };
 		8D9514881BD5CE850062B3C8 /* OC07-内存管理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OC07-内存管理"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D95148B1BD5CE850062B3C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D9514961BD5CEBF0062B3C8 /* 3-手动内存管理快速入门 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3-手动内存管理快速入门"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -263,6 +284,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8D87CA091BD685B8004FF1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D9514851BD5CE850062B3C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,6 +399,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D87CA0D1BD685B8004FF1EB /* 作业-微博 */ = {
+			isa = PBXGroup;
+			children = (
+				8D87CA0E1BD685B8004FF1EB /* main.m */,
+				8D87CA131BD685DD004FF1EB /* Account.h */,
+				8D87CA141BD685DD004FF1EB /* Account.m */,
+				8D87CA161BD6872B004FF1EB /* User.h */,
+				8D87CA171BD6872B004FF1EB /* User.m */,
+				8D87CA191BD688A5004FF1EB /* Microblog.h */,
+				8D87CA1A1BD688A5004FF1EB /* Microblog.m */,
+			);
+			path = "作业-微博";
+			sourceTree = "<group>";
+		};
 		8D95147F1BD5CE850062B3C8 = {
 			isa = PBXGroup;
 			children = (
@@ -388,6 +430,7 @@
 				8D95154C1BD64A860062B3C8 /* 14-循环retain问题 */,
 				8D95155D1BD65B980062B3C8 /* 15-NSString 类的内存管理问题 */,
 				8D9515681BD65DF20062B3C8 /* 16-autorelease基本使用 */,
+				8D87CA0D1BD685B8004FF1EB /* 作业-微博 */,
 				8D9514891BD5CE850062B3C8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -410,6 +453,7 @@
 				8D95154B1BD64A860062B3C8 /* 14-循环retain问题 */,
 				8D95155C1BD65B980062B3C8 /* 15-NSString 类的内存管理问题 */,
 				8D9515671BD65DF20062B3C8 /* 16-autorelease基本使用 */,
+				8D87CA0C1BD685B8004FF1EB /* 作业-微博 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -575,6 +619,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8D87CA0B1BD685B8004FF1EB /* 作业-微博 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D87CA121BD685B8004FF1EB /* Build configuration list for PBXNativeTarget "作业-微博" */;
+			buildPhases = (
+				8D87CA081BD685B8004FF1EB /* Sources */,
+				8D87CA091BD685B8004FF1EB /* Frameworks */,
+				8D87CA0A1BD685B8004FF1EB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "作业-微博";
+			productName = "作业-微博";
+			productReference = 8D87CA0C1BD685B8004FF1EB /* 作业-微博 */;
+			productType = "com.apple.product-type.tool";
+		};
 		8D9514871BD5CE850062B3C8 /* OC07-内存管理 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D95148F1BD5CE850062B3C8 /* Build configuration list for PBXNativeTarget "OC07-内存管理" */;
@@ -839,6 +900,9 @@
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = yezhimin;
 				TargetAttributes = {
+					8D87CA0B1BD685B8004FF1EB = {
+						CreatedOnToolsVersion = 6.4;
+					};
 					8D9514871BD5CE850062B3C8 = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -913,11 +977,23 @@
 				8D95154A1BD64A860062B3C8 /* 14-循环retain问题 */,
 				8D95155B1BD65B980062B3C8 /* 15-NSString 类的内存管理问题 */,
 				8D9515661BD65DF20062B3C8 /* 16-autorelease基本使用 */,
+				8D87CA0B1BD685B8004FF1EB /* 作业-微博 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8D87CA081BD685B8004FF1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D87CA1B1BD688A5004FF1EB /* Microblog.m in Sources */,
+				8D87CA0F1BD685B8004FF1EB /* main.m in Sources */,
+				8D87CA151BD685DD004FF1EB /* Account.m in Sources */,
+				8D87CA181BD6872B004FF1EB /* User.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D9514841BD5CE850062B3C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1063,6 +1139,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8D87CA101BD685B8004FF1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D87CA111BD685B8004FF1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8D95148D1BD5CE850062B3C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1435,6 +1531,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8D87CA121BD685B8004FF1EB /* Build configuration list for PBXNativeTarget "作业-微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D87CA101BD685B8004FF1EB /* Debug */,
+				8D87CA111BD685B8004FF1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		8D9514831BD5CE850062B3C8 /* Build configuration list for PBXProject "OC07-内存管理" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1451,6 +1555,7 @@
 				8D9514911BD5CE850062B3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D95149A1BD5CEBF0062B3C8 /* Build configuration list for PBXNativeTarget "3-手动内存管理快速入门" */ = {
 			isa = XCConfigurationList;
@@ -1459,6 +1564,7 @@
 				8D95149C1BD5CEBF0062B3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D9514A81BD5DD7E0062B3C8 /* Build configuration list for PBXNativeTarget "4-单个对象的内存管理" */ = {
 			isa = XCConfigurationList;
@@ -1467,6 +1573,7 @@
 				8D9514AA1BD5DD7E0062B3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D9514B61BD5E52E0062B3C8 /* Build configuration list for PBXNativeTarget "6-单个对象内存管理" */ = {
 			isa = XCConfigurationList;
@@ -1475,6 +1582,7 @@
 				8D9514B81BD5E52E0062B3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D9514C41BD5EBAD0062B3C8 /* Build configuration list for PBXNativeTarget "7-多个对象内存管理（野指针）" */ = {
 			isa = XCConfigurationList;
@@ -1483,6 +1591,7 @@
 				8D9514C61BD5EBAD0062B3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D9514D51BD5F5030062B3C8 /* Build configuration list for PBXNativeTarget "8-多个对象内存管理" */ = {
 			isa = XCConfigurationList;
@@ -1491,6 +1600,7 @@
 				8D9514D71BD5F5030062B3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D9514E61BD606920062B3C8 /* Build configuration list for PBXNativeTarget "9-set方法内存管理" */ = {
 			isa = XCConfigurationList;
@@ -1499,6 +1609,7 @@
 				8D9514E81BD606920062B3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D9514F71BD62A310062B3C8 /* Build configuration list for PBXNativeTarget "10-@property参数1" */ = {
 			isa = XCConfigurationList;
@@ -1507,6 +1618,7 @@
 				8D9514F91BD62A310062B3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D9515081BD62E530062B3C8 /* Build configuration list for PBXNativeTarget "@property参数2" */ = {
 			isa = XCConfigurationList;
@@ -1515,6 +1627,7 @@
 				8D95150A1BD62E530062B3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D9515131BD62E8B0062B3C8 /* Build configuration list for PBXNativeTarget "11-@property参数2" */ = {
 			isa = XCConfigurationList;
@@ -1523,6 +1636,7 @@
 				8D9515151BD62E8B0062B3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D9515211BD636A40062B3C8 /* Build configuration list for PBXNativeTarget "12-应用：电商App练习" */ = {
 			isa = XCConfigurationList;
@@ -1531,6 +1645,7 @@
 				8D9515231BD636A40062B3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D9515381BD63D210062B3C8 /* Build configuration list for PBXNativeTarget "13-@class的使用" */ = {
 			isa = XCConfigurationList;
@@ -1539,6 +1654,7 @@
 				8D95153A1BD63D210062B3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D95154F1BD64A860062B3C8 /* Build configuration list for PBXNativeTarget "14-循环retain问题" */ = {
 			isa = XCConfigurationList;
@@ -1547,6 +1663,7 @@
 				8D9515511BD64A860062B3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D9515601BD65B980062B3C8 /* Build configuration list for PBXNativeTarget "15-NSString 类的内存管理问题" */ = {
 			isa = XCConfigurationList;
@@ -1555,6 +1672,7 @@
 				8D9515621BD65B980062B3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D95156B1BD65DF20062B3C8 /* Build configuration list for PBXNativeTarget "16-autorelease基本使用" */ = {
 			isa = XCConfigurationList;
@@ -1563,6 +1681,7 @@
 				8D95156D1BD65DF20062B3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -74,9 +74,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>作业-微博.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>8D87CA0B1BD685B8004FF1EB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8D9514871BD5CE850062B3C8</key>
 		<dict>
 			<key>primary</key>

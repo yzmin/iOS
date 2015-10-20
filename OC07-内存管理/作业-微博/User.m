@@ -1,22 +1,20 @@
 //
-//  Car.m
+//  User.m
 //  OC07-内存管理
 //
 //  Created by yezhimin on 15/10/20.
 //  Copyright (c) 2015年 yezhimin. All rights reserved.
 //
 
-#import "Car.h"
+#import "User.h"
+#import "Account.h"
 
-@implementation Car
+@implementation User
 - (void)dealloc
 {
-    NSLog(@"车被销毁");
+    [_name release];
+    [_account release];
     [super dealloc];
 }
 
--(void)run
-{
-    NSLog(@"车在跑");
-}
 @end
