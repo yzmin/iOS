@@ -9,5 +9,6 @@
 #import "Person.h"
 
 @interface Person (study)
-
+-(void)studyC;
+-(void)studyIOS;
 @end

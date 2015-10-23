@@ -15,7 +15,6 @@
 - (void)dealloc
 {
     NSLog(@"车报废了");
-    [super dealloc];
 }
 -(void)run
 {

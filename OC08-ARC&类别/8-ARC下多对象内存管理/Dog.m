@@ -9,5 +9,8 @@
 #import "Dog.h"
 
 @implementation Dog
-
+- (void)dealloc
+{
+    NSLog(@"Dog dealloc");
+}
 @end

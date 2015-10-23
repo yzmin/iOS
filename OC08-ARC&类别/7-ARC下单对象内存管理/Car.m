@@ -9,5 +9,12 @@
 #import "Car.h"
 
 @implementation Car
-
+-(void)run
+{
+    NSLog(@"车在疯跑");
+}
+- (void)dealloc
+{
+    NSLog(@"Car dealloc");
+}
 @end

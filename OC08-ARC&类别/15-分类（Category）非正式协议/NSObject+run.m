@@ -9,5 +9,12 @@
 #import "NSObject+run.h"
 
 @implementation NSObject (run)
-
+-(void)eat
+{
+    NSLog(@"会吃东西");
+}
+-(void)run
+{
+    NSLog(@"会跑");
+}
 @end

@@ -9,5 +9,8 @@
 #import "Person.h"
 
 @implementation Person
-
+- (void)dealloc
+{
+    NSLog(@"Person dealloc");
+}
 @end

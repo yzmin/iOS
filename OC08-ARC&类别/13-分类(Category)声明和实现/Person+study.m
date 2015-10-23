@@ -9,5 +9,12 @@
 #import "Person+study.h"
 
 @implementation Person (study)
-
+-(void)studyC
+{
+    NSLog(@"那人正在学习 C 语言");
+}
+-(void)studyIOS
+{
+    NSLog(@"那人正在学习 IOS 语言");
+}
 @end

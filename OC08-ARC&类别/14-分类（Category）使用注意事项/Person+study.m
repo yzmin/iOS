@@ -9,5 +9,8 @@
 #import "Person+study.h"
 
 @implementation Person (study)
-
+-(void)run
+{
+    NSLog(@"study run");
+}
 @end

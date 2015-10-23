@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Person : NSObject
-
++(id)person;
+-(void)run;
 @end

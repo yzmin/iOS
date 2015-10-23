@@ -9,5 +9,8 @@
 #import "Person.h"
 
 @interface Person ()
-
+{
+    int _height;
+}
+-(void)work;
 @end

@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface Dog : NSObject
-
+-(void)run;
 @end

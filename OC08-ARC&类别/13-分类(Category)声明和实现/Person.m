@@ -9,5 +9,16 @@
 #import "Person.h"
 
 @implementation Person
+//person类原有的方法实现
+@end
 
+//实现一个类别
+@implementation Person (base)
+-(void)eat{
+    NSLog(@"Person eat");
+}
+
+-(void)run{
+    NSLog(@"Person run");
+}
 @end

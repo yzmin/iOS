@@ -9,5 +9,8 @@
 #import "Person+playGame.h"
 
 @implementation Person (playGame)
-
+-(void)run
+{
+    NSLog(@"playGame run");
+}
 @end

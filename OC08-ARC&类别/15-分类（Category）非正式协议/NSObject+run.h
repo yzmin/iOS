@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject (run)
+//给NSOBbject类增加的
+//类别的名称 run
+//这是一个非正式协议
 
+//NSString+countNum     非正式类别
+//Gun+shoot             普通类别
+
+@interface NSObject (run)
+-(void)eat;
+-(void)run;
 @end

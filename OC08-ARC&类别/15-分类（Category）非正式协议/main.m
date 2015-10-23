@@ -7,11 +7,26 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSObject+run.h"
+#import "Person.h"
+#import "Gun.h"
+#import "NSString+conutNum.h"
+
+void test()
+{
+    Person *p = [Person new];
+    [p eat];
+    Gun *g = [Gun new];
+    [g eat];
+    [g run];
+}
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSString *str = @"abc123";
+        [str conutNumForString];
+        NSString *str2 = [NSString stringWithFormat:@"abc45"];
+        [str2 conutNumForString];
     }
     return 0;
 }

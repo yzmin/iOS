@@ -9,5 +9,13 @@
 #import "Student.h"
 
 @implementation Student
-
+- (void)dealloc
+{
+    NSLog(@"Student dealloc");
+    [super dealloc];
+}
+-(void)run
+{
+    NSLog(@"Student run");
+}
 @end

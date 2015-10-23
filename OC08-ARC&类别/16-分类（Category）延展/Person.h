@@ -9,5 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface Person : NSObject
-
+@property int age;
+//setAge
+//age
+//_age
+-(void)test;
 @end
+
+

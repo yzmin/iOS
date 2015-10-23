@@ -8,6 +8,18 @@
 
 #import "Person.h"
 
-@implementation Person
+@implementation Person (base)
 
+-(void)run
+{
+    NSLog(@"age = %d",_age);
+}
+
+@end
+
+@implementation Person
+-(void)run
+{
+    NSLog(@"Person run");
+}
 @end

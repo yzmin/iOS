@@ -9,5 +9,13 @@
 #import "Dog.h"
 
 @implementation Dog
-
+-(void)run
+{
+    NSLog(@"狗 以200吗的速度 撞树上了");
+}
+- (void)dealloc
+{
+    NSLog(@"Dog dealloc");
+//    [super dealloc];
+}
 @end

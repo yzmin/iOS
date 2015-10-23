@@ -9,5 +9,12 @@
 #import "Person+playGame.h"
 
 @implementation Person (playGame)
-
+-(void)playLol
+{
+    NSLog(@"那人正在玩lol");
+}
+-(void)playDota
+{
+    NSLog(@"那人正在玩Dota");
+}
 @end

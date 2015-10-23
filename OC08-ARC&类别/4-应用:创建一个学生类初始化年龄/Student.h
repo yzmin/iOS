@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface Student : NSObject
-
+@property (nonatomic,assign) int age;
+//自动义构造方法
+-(instancetype)initWithAge:(int)age;
++(instancetype)studentWithAge:(int)age;
 @end

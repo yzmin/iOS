@@ -9,5 +9,7 @@
 #import "Person.h"
 
 @interface Person (playGame)
-
+//增加一个类别，类别名称 playGame 给person 增加新方法
+-(void)playLol;
+-(void)playDota;
 @end

@@ -12,9 +12,8 @@
 //监控Person对象有没有被释放
 - (void)dealloc
 {
-    [_car release];//_car 和 car是同一块内存空间 car = 0
+    //_car 和 car是同一块内存空间 car = 0
      NSLog(@"Person 没了");
-    [super dealloc];
 }
 
 -(void)setCar:(Car *)car
@@ -35,8 +34,8 @@
     if(_car != car)
     {
         //[nil release];
-        [_car release];//car1 的内存空间就释放了
-        [car retain];//car = 2
+        //car1 的内存空间就释放了
+        //car = 2
         //赋值前
         //_car  -->car1
         //car  -->car2
