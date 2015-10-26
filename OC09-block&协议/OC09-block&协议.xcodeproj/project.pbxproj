@@ -28,6 +28,8 @@
 		8D45D2851BDBDD210086056D /* WAWJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D45D2841BDBDD210086056D /* WAWJ.m */; };
 		8D45D28D1BDC6AE40086056D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D45D28C1BDC6AE40086056D /* main.m */; };
 		8D45D2981BDC78370086056D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D45D2971BDC78370086056D /* main.m */; };
+		8D7CAEC71BDCB7FA00D282C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7CAEC61BDCB7FA00D282C2 /* main.m */; };
+		8D7CAECD1BDCB80C00D282C2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7CAECC1BDCB80C00D282C2 /* Person.m */; };
 		8DAF2A0A1BDB62E90034037E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF2A091BDB62E90034037E /* main.m */; };
 		8DAF2A151BDB67570034037E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF2A141BDB67570034037E /* main.m */; };
 		8DAF2A201BDB6A770034037E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF2A1F1BDB6A770034037E /* main.m */; };
@@ -112,6 +114,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8D45D2931BDC78370086056D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8D7CAEC21BDCB7FA00D282C2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -236,6 +247,10 @@
 		8D45D28C1BDC6AE40086056D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D45D2951BDC78370086056D /* 18-使用NSURL读写字符串 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18-使用NSURL读写字符串"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D45D2971BDC78370086056D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D7CAEC41BDCB7FA00D282C2 /* 19-block作为方法的参数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19-block作为方法的参数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D7CAEC61BDCB7FA00D282C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D7CAECB1BDCB80C00D282C2 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8D7CAECC1BDCB80C00D282C2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		8DAF2A071BDB62E90034037E /* 5-block作为函数的返回值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5-block作为函数的返回值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DAF2A091BDB62E90034037E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8DAF2A121BDB67570034037E /* 6-应用：block的使用场景2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6-应用：block的使用场景2"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -312,6 +327,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8D45D2921BDC78370086056D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D7CAEC11BDCB7FA00D282C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -474,6 +496,16 @@
 			path = "18-使用NSURL读写字符串";
 			sourceTree = "<group>";
 		};
+		8D7CAEC51BDCB7FA00D282C2 /* 19-block作为方法的参数 */ = {
+			isa = PBXGroup;
+			children = (
+				8D7CAEC61BDCB7FA00D282C2 /* main.m */,
+				8D7CAECB1BDCB80C00D282C2 /* Person.h */,
+				8D7CAECC1BDCB80C00D282C2 /* Person.m */,
+			);
+			path = "19-block作为方法的参数";
+			sourceTree = "<group>";
+		};
 		8DAF2A081BDB62E90034037E /* 5-block作为函数的返回值 */ = {
 			isa = PBXGroup;
 			children = (
@@ -519,6 +551,7 @@
 				8D45D2761BDBDB130086056D /* 15-应用：通过中介找房子 */,
 				8D45D28B1BDC6AE40086056D /* 17-NSString介绍及基本使用 */,
 				8D45D2961BDC78370086056D /* 18-使用NSURL读写字符串 */,
+				8D7CAEC51BDCB7FA00D282C2 /* 19-block作为方法的参数 */,
 				8DB81A6A1BDB252C00223CDA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -542,6 +575,7 @@
 				8D45D2751BDBDB130086056D /* 15-应用：通过中介找房子 */,
 				8D45D28A1BDC6AE40086056D /* 17-NSString介绍及基本使用 */,
 				8D45D2951BDC78370086056D /* 18-使用NSURL读写字符串 */,
+				8D7CAEC41BDCB7FA00D282C2 /* 19-block作为方法的参数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -734,6 +768,23 @@
 			productReference = 8D45D2951BDC78370086056D /* 18-使用NSURL读写字符串 */;
 			productType = "com.apple.product-type.tool";
 		};
+		8D7CAEC31BDCB7FA00D282C2 /* 19-block作为方法的参数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D7CAECA1BDCB7FA00D282C2 /* Build configuration list for PBXNativeTarget "19-block作为方法的参数" */;
+			buildPhases = (
+				8D7CAEC01BDCB7FA00D282C2 /* Sources */,
+				8D7CAEC11BDCB7FA00D282C2 /* Frameworks */,
+				8D7CAEC21BDCB7FA00D282C2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "19-block作为方法的参数";
+			productName = "19-block作为方法的参数";
+			productReference = 8D7CAEC41BDCB7FA00D282C2 /* 19-block作为方法的参数 */;
+			productType = "com.apple.product-type.tool";
+		};
 		8DAF2A061BDB62E90034037E /* 5-block作为函数的返回值 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DAF2A0D1BDB62E90034037E /* Build configuration list for PBXNativeTarget "5-block作为函数的返回值" */;
@@ -889,6 +940,9 @@
 					8D45D2941BDC78370086056D = {
 						CreatedOnToolsVersion = 6.4;
 					};
+					8D7CAEC31BDCB7FA00D282C2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
 					8DAF2A061BDB62E90034037E = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -940,6 +994,7 @@
 				8D45D2741BDBDB130086056D /* 15-应用：通过中介找房子 */,
 				8D45D2891BDC6AE40086056D /* 17-NSString介绍及基本使用 */,
 				8D45D2941BDC78370086056D /* 18-使用NSURL读写字符串 */,
+				8D7CAEC31BDCB7FA00D282C2 /* 19-block作为方法的参数 */,
 			);
 		};
 /* End PBXProject section */
@@ -1026,6 +1081,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D45D2981BDC78370086056D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D7CAEC01BDCB7FA00D282C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7CAECD1BDCB80C00D282C2 /* Person.m in Sources */,
+				8D7CAEC71BDCB7FA00D282C2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1251,6 +1315,24 @@
 			};
 			name = Release;
 		};
+		8D7CAEC81BDCB7FA00D282C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D7CAEC91BDCB7FA00D282C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8DAF2A0B1BDB62E90034037E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1460,6 +1542,7 @@
 				8D45D2161BDB7B020086056D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D45D2201BDB7E780086056D /* Build configuration list for PBXNativeTarget "9-protocol的基本使用" */ = {
 			isa = XCConfigurationList;
@@ -1468,6 +1551,7 @@
 				8D45D2221BDB7E780086056D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D45D2301BDB8B8C0086056D /* Build configuration list for PBXNativeTarget "10-protocol其他用法" */ = {
 			isa = XCConfigurationList;
@@ -1476,6 +1560,7 @@
 				8D45D2321BDB8B8C0086056D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D45D2451BDBAE610086056D /* Build configuration list for PBXNativeTarget "11-protocol中@required和@optional" */ = {
 			isa = XCConfigurationList;
@@ -1484,6 +1569,7 @@
 				8D45D2471BDBAE610086056D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D45D2541BDBB3A00086056D /* Build configuration list for PBXNativeTarget "12-protocol类型限制" */ = {
 			isa = XCConfigurationList;
@@ -1492,6 +1578,7 @@
 				8D45D2561BDBB3A00086056D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D45D2671BDBC31F0086056D /* Build configuration list for PBXNativeTarget "13-protocol代理设计模式引入" */ = {
 			isa = XCConfigurationList;
@@ -1500,6 +1587,7 @@
 				8D45D2691BDBC31F0086056D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D45D2791BDBDB130086056D /* Build configuration list for PBXNativeTarget "15-应用：通过中介找房子" */ = {
 			isa = XCConfigurationList;
@@ -1508,6 +1596,7 @@
 				8D45D27B1BDBDB130086056D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D45D28E1BDC6AE40086056D /* Build configuration list for PBXNativeTarget "17-NSString介绍及基本使用" */ = {
 			isa = XCConfigurationList;
@@ -1516,12 +1605,22 @@
 				8D45D2901BDC6AE40086056D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D45D2991BDC78370086056D /* Build configuration list for PBXNativeTarget "18-使用NSURL读写字符串" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D45D29A1BDC78370086056D /* Debug */,
 				8D45D29B1BDC78370086056D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D7CAECA1BDCB7FA00D282C2 /* Build configuration list for PBXNativeTarget "19-block作为方法的参数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D7CAEC81BDCB7FA00D282C2 /* Debug */,
+				8D7CAEC91BDCB7FA00D282C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

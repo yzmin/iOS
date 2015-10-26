@@ -39,6 +39,11 @@
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
+		<key>19-block作为方法的参数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 		<key>2-block的typedef.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -128,6 +133,11 @@
 			<true/>
 		</dict>
 		<key>8D45D2941BDC78370086056D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8D7CAEC31BDCB7FA00D282C2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

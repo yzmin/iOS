@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>B1D0FB51-DA3D-4DD3-9A67-0B04B962184B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>OC09-block&amp;协议</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>B77D25CDD671859CCE5E35A2E429CB75612CED60</key>
 		<string>https://github.com/yzmin/iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>OC09-block&amp;协议/OC09-block&amp;协议.xcodeproj/project.xcworkspace</string>
+	<string>OC09-block&amp;协议/OC09-block&amp;协议.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>B77D25CDD671859CCE5E35A2E429CB75612CED60</key>
