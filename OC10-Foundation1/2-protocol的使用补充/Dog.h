@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+//#import "baseProtocol.h"
+@protocol baseProtocol;
 
-@interface Dog : NSObject
+@interface Dog : NSObject <baseProtocol>
 
 @end

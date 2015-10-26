@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @protocol baseProtocol <NSObject>
-
+-(void)run;
 @end

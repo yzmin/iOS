@@ -7,7 +7,11 @@
 //
 
 #import "Dog.h"
+#import "baseProtocol.h"
 
 @implementation Dog
-
+-(void)run
+{
+    NSLog(@"Dog run");
+}
 @end
