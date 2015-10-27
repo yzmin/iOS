@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0640"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8D7CB08F1BDF1C1C00D282C2"
+               BuildableName = "15-&#x4e3a;&#x81ea;&#x5b9a;&#x4e49;&#x7684;&#x7c7b;&#x5b9e;&#x73b0;copy&#x64cd;&#x4f5c;"
+               BlueprintName = "15-&#x4e3a;&#x81ea;&#x5b9a;&#x4e49;&#x7684;&#x7c7b;&#x5b9e;&#x73b0;copy&#x64cd;&#x4f5c;"
+               ReferencedContainer = "container:OC11Foundation&amp;copy.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8D7CB08F1BDF1C1C00D282C2"
+            BuildableName = "15-&#x4e3a;&#x81ea;&#x5b9a;&#x4e49;&#x7684;&#x7c7b;&#x5b9e;&#x73b0;copy&#x64cd;&#x4f5c;"
+            BlueprintName = "15-&#x4e3a;&#x81ea;&#x5b9a;&#x4e49;&#x7684;&#x7c7b;&#x5b9e;&#x73b0;copy&#x64cd;&#x4f5c;"
+            ReferencedContainer = "container:OC11Foundation&amp;copy.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8D7CB08F1BDF1C1C00D282C2"
+            BuildableName = "15-&#x4e3a;&#x81ea;&#x5b9a;&#x4e49;&#x7684;&#x7c7b;&#x5b9e;&#x73b0;copy&#x64cd;&#x4f5c;"
+            BlueprintName = "15-&#x4e3a;&#x81ea;&#x5b9a;&#x4e49;&#x7684;&#x7c7b;&#x5b9e;&#x73b0;copy&#x64cd;&#x4f5c;"
+            ReferencedContainer = "container:OC11Foundation&amp;copy.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8D7CB08F1BDF1C1C00D282C2"
+            BuildableName = "15-&#x4e3a;&#x81ea;&#x5b9a;&#x4e49;&#x7684;&#x7c7b;&#x5b9e;&#x73b0;copy&#x64cd;&#x4f5c;"
+            BlueprintName = "15-&#x4e3a;&#x81ea;&#x5b9a;&#x4e49;&#x7684;&#x7c7b;&#x5b9e;&#x73b0;copy&#x64cd;&#x4f5c;"
+            ReferencedContainer = "container:OC11Foundation&amp;copy.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
