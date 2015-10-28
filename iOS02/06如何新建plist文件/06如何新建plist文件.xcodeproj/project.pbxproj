@@ -14,6 +14,7 @@
 		8D3815CE1BE0F87700841538 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3815CD1BE0F87700841538 /* Images.xcassets */; };
 		8D3815D11BE0F87700841538 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3815CF1BE0F87700841538 /* LaunchScreen.xib */; };
 		8D3815DD1BE0F87700841538 /* _6____plist__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3815DC1BE0F87700841538 /* _6____plist__Tests.m */; };
+		8D3815E71BE0F8C000841538 /* Students.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D3815E61BE0F8C000841538 /* Students.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		8D3815D61BE0F87700841538 /* 06如何新建plist文件Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "06如何新建plist文件Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3815DB1BE0F87700841538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D3815DC1BE0F87700841538 /* _6____plist__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_6____plist__Tests.m"; sourceTree = "<group>"; };
+		8D3815E61BE0F8C000841538 /* Students.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Students.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				8D3815CD1BE0F87700841538 /* Images.xcassets */,
 				8D3815CF1BE0F87700841538 /* LaunchScreen.xib */,
 				8D3815C01BE0F87700841538 /* Supporting Files */,
+				8D3815E61BE0F8C000841538 /* Students.plist */,
 			);
 			path = "06如何新建plist文件";
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			files = (
 				8D3815CC1BE0F87700841538 /* Main.storyboard in Resources */,
 				8D3815D11BE0F87700841538 /* LaunchScreen.xib in Resources */,
+				8D3815E71BE0F8C000841538 /* Students.plist in Resources */,
 				8D3815CE1BE0F87700841538 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
