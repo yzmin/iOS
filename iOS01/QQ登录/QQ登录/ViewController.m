@@ -32,6 +32,7 @@
     NSString *qq = self.QQ.text;
     NSString *passwd = self.QQPasswd.text;
     NSLog(@"QQ:%@ , Passwd:%@",qq,passwd);
+    [self.view endEditing:YES];
     
 }
 
@@ -39,5 +40,6 @@
     NSLog(@"取消");
     self.QQ.text = @"";
     self.QQPasswd.text = @"";
+    [self.view endEditing:YES];
 }
 @end

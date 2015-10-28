@@ -14,6 +14,7 @@
 		8D7CB18C1BDF92F400D282C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D7CB18B1BDF92F400D282C2 /* Images.xcassets */; };
 		8D7CB18F1BDF92F400D282C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D7CB18D1BDF92F400D282C2 /* LaunchScreen.xib */; };
 		8D7CB19B1BDF92F400D282C2 /* QQ__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7CB19A1BDF92F400D282C2 /* QQ__Tests.m */; };
+		8DE090831BE073E60004D4AE /* YZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE090821BE073E60004D4AE /* YZPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8D7CB1941BDF92F400D282C2 /* QQ登录Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QQ登录Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7CB1991BDF92F400D282C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D7CB19A1BDF92F400D282C2 /* QQ__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQ__Tests.m; sourceTree = "<group>"; };
+		8DE090811BE073E60004D4AE /* YZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPerson.h; sourceTree = "<group>"; };
+		8DE090821BE073E60004D4AE /* YZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				8D7CB18B1BDF92F400D282C2 /* Images.xcassets */,
 				8D7CB18D1BDF92F400D282C2 /* LaunchScreen.xib */,
 				8D7CB17E1BDF92F400D282C2 /* Supporting Files */,
+				8DE090811BE073E60004D4AE /* YZPerson.h */,
+				8DE090821BE073E60004D4AE /* YZPerson.m */,
 			);
 			path = "QQ登录";
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 		8D7CB1731BDF92F400D282C2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YZ;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = yezhimin;
 				TargetAttributes = {
@@ -222,6 +228,7 @@
 				8D7CB1871BDF92F400D282C2 /* ViewController.m in Sources */,
 				8D7CB1841BDF92F400D282C2 /* AppDelegate.m in Sources */,
 				8D7CB1811BDF92F400D282C2 /* main.m in Sources */,
+				8DE090831BE073E60004D4AE /* YZPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +423,7 @@
 				8D7CB1A01BDF92F400D282C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D7CB1A11BDF92F400D282C2 /* Build configuration list for PBXNativeTarget "QQ登录Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +432,7 @@
 				8D7CB1A31BDF92F400D282C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

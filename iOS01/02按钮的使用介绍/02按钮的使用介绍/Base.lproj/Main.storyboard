@@ -32,7 +32,7 @@
                                 <state key="disabled" backgroundImage="top_disable"/>
                                 <state key="highlighted" backgroundImage="top_highlighted"/>
                                 <connections>
-                                    <action selector="move:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iXP-DI-BQy"/>
+                                    <action selector="up" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0am-Po-H6u"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DYe-Jf-Rpg" userLabel="左">
@@ -43,6 +43,9 @@
                                 </state>
                                 <state key="disabled" backgroundImage="left_disable"/>
                                 <state key="highlighted" backgroundImage="left_highlighted"/>
+                                <connections>
+                                    <action selector="left" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bms-Au-q6R"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WN9-IY-VF3" userLabel="下">
                                 <rect key="frame" x="57" y="366" width="48" height="48"/>
@@ -52,6 +55,9 @@
                                 </state>
                                 <state key="disabled" backgroundImage="bottom_disable"/>
                                 <state key="highlighted" backgroundImage="bottom_highlighted"/>
+                                <connections>
+                                    <action selector="down:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VV2-8d-1fD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VQR-Am-YF9">
                                 <rect key="frame" x="196" y="310" width="48" height="48"/>
@@ -61,6 +67,9 @@
                                 </state>
                                 <state key="disabled" backgroundImage="top_disable"/>
                                 <state key="highlighted" backgroundImage="plus_highlighted"/>
+                                <connections>
+                                    <action selector="big" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YD5-x0-CxW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jyX-oq-Yzb">
                                 <rect key="frame" x="269" y="310" width="48" height="48"/>
@@ -70,6 +79,9 @@
                                 </state>
                                 <state key="disabled" backgroundImage="top_disable"/>
                                 <state key="highlighted" backgroundImage="minus_highlighted"/>
+                                <connections>
+                                    <action selector="small" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VIP-du-e8K"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="dPP-E8-LBa" userLabel="右">
                                 <rect key="frame" x="100" y="324" width="48" height="48"/>
@@ -79,6 +91,9 @@
                                 </state>
                                 <state key="disabled" backgroundImage="right_disable"/>
                                 <state key="highlighted" backgroundImage="right_highlighted"/>
+                                <connections>
+                                    <action selector="right" destination="vXZ-lx-hvc" eventType="touchUpInside" id="k2C-Qw-hay"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
