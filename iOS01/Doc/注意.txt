@@ -1,3 +1,0 @@
-command + R 运行程序
-shift + command + H 在模拟器中回到"桌面", 相当于在 iPhone上按一下 home 键
-shift + command + (按两下 H), 相当于在 iPhone上按两下 home 键
